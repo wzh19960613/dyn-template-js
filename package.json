@@ -1,0 +1,27 @@
+{
+    "name": "dyn-template",
+    "version": "0.0.1",
+    "author": "Wzh <wzh@uvwee.com>",
+    "repository": "github:wzh19960613/dyn-template-js",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "devDependencies": {
+        "@types/bun": "^1.1.11",
+        "bun-plugin-dts": "^0.3.0"
+    },
+    "description": "Dynamic Template string",
+    "keywords": [
+        "dynamic",
+        "template",
+        "string",
+        "literal",
+        "function"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "bun ./build.ts"
+    },
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "dependencies": {}
+}
